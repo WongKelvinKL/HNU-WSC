@@ -12,7 +12,7 @@ HNU-WSC/
 
 ├─ README.md
 
-└─ 战国楚简/
+└─战国楚简/
 
 ├─ 八/
 
@@ -38,7 +38,8 @@ HNU-WSC/
 
 │   └─ 05.png
 
-└─ …其余字头目录，共100个注：以上为结构示例，请查看压缩包内目录获取完整内容。）
+└─ …other character head directories, 100 in total  
+   (Note: The above is a structural example. Please refer to the compressed package for the complete content）
 
 ## Purpose
 Each character head folder contains Chu slip glyph images of different writing forms of the corresponding character. As there are many images, it is recommended to download the compressed package locally to view details.
