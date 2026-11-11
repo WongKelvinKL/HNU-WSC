@@ -1,4 +1,4 @@
-# HNU-WSC
+# HNU-WSC-subset
 This is a lightweight image dataset of Warring States Chu slip characters. This subset is sampled from the full HNU-WSC dataset (180,000 glyph images in total). It is used for pipeline debugging, data testing and demonstration, and it is NOT the full dataset.
 This subset collects and organizes glyph images of different character heads from Warring States Chu slips, mainly selected from Guodian Chu slips, Baoshan Chu slips and other materials. It aims to provide high-quality reference samples for ancient character recognition model training, glyph retrieval and typeface design.
 
