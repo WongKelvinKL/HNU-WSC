@@ -1,13 +1,14 @@
 # HNU-WSC
-这是战国楚简文字图像精简数据集。该子集取自完整HNU-WSC数据集（共180000张字形图像），用于流程调试、数据测试与效果演示，并非完整数据集。
-该子集整理收录了战国楚简不同字头的字形图像，主要选自郭店楚简、包山楚简等材料，目标是为古文字识别模型训练、字形检索、字体设计提供高质量的参考样本。
+This is a lightweight image dataset of Warring States Chu slip characters. This subset is sampled from the full HNU-WSC dataset (180,000 glyph images in total). It is used for pipeline debugging, data testing and demonstration, and it is NOT the full dataset.
+This subset collects and organizes glyph images of different character heads from Warring States Chu slips, mainly selected from Guodian Chu slips, Baoshan Chu slips and other materials. It aims to provide high-quality reference samples for ancient character recognition model training, glyph retrieval and typeface design.
 
-## 简介
-战国楚简是战国时期重要的出土文字材料，字形特征鲜明，是先秦文字研究的核心材料。本精简子集一共挑选100个学界公认可释读的字头，每个字头收录5张不同字形样本，合计500张图像。
-目前，子集文件按字头分类存放，一共101个文件夹（1个根目录+100个字头文件夹）。
+## Introduction
+Chu slips are important excavated textual materials of the Warring States period with distinctive glyph features, serving as core materials for the research of pre-Qin characters. This lightweight subset selects 100 academically recognized interpretable character heads. Each character head contains 5 different glyph samples, with a total of 500 images.
+At present, subset files are classified and stored by character heads, including 101 folders (1 root folder + 100 character head folders).
 
-## 目录结构
-所有资源均以释读的字头命名，目录结构如下：HNU-WSC/
+## Directory Structure
+All resources are named after the interpreted character heads. The directory structure is as follows:
+HNU-WSC/
 
 ├─ README.md
 
@@ -39,23 +40,23 @@
 
 └─ …其余字头目录，共100个注：以上为结构示例，请查看压缩包内目录获取完整内容。）
 
-## 用途
-每个字头文件夹都包含该字不同写法的楚简字形图像。由于图片较多，建议下载压缩包到本地查看详细信息。
+## Purpose
+Each character head folder contains Chu slip glyph images of different writing forms of the corresponding character. As there are many images, it is recommended to download the compressed package locally to view details.
 
-## 使用场景
-a) 古文字学习与字形比对：作为战国楚简文字字形观摩、对比学习的参考资料。
+## Usage Scenarios
+a) Ancient character learning and glyph comparison: Reference materials for observing and comparing glyphs of Warring States Chu slip characters.
 
-b) OCR / 计算机视觉研究：用于古代汉字识别、字形检索、风格迁移模型调试测试。
+b) OCR / Computer vision research: For debugging and testing ancient Chinese character recognition, glyph retrieval and style transfer models.
 
-c) 字体设计：供设计师参考战国楚简文字的结构特征。
+c) Typeface design: For designers to refer to the structural features of Warring States Chu slip characters.
 
-⚠️ 版权与免责声明
+⚠️ Copyright and Disclaimer
 
-a) 该数据集仅供学习、研究和交流之用。请勿将其用于商业用途。
+a) This dataset is for learning, research and communication only. Do not use it for commercial purposes.
 
-b) 部分图片来源于公开古籍资源、开源古文字数据集。如有任何版权问题，请联系我们进行删除。
+b) Some images are sourced from public ancient books and open-source ancient character datasets. Please contact us for removal if any copyright issues arise.
 
-c) 如果您将该数据集用于学术研究，建议注明来源HNU-WSC。
+c) If you use this dataset for academic research, it is recommended to cite the source HNU-WSC.
 
-## 贡献
-如果你有更多战国楚简字形资料，或者发现任何命名、释读错误，欢迎提交拉取请求或反馈问题以补充和更正。
+## Contribution
+If you have more glyph resources of Warring States Chu slips, or find any errors in naming or character interpretation, welcome to submit pull requests or feedback for supplement and correction.
