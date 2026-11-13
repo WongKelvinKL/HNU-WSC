@@ -1,5 +1,5 @@
 # HNU-WSC-subset
-This is a lightweight image dataset of Warring States Chu slip characters. This subset is sampled from the full HNU-WSC dataset (179,801 glyph images in total). It is used for pipeline debugging, data testing and demonstration, and it is NOT the full dataset.
+This is a lightweight image dataset of Warring States Chu slip characters. This subset is sampled from the full HNU-WSC dataset (165，293glyph images in total). It is used for pipeline debugging, data testing and demonstration, and it is NOT the full dataset.
 This subset collects and organizes glyph images of different character heads from Warring States Chu slips, mainly selected from Guodian Chu slips, Baoshan Chu slips and other materials. It aims to provide high-quality reference samples for ancient character recognition model training, glyph retrieval and typeface design.
 
 ## Introduction
@@ -40,6 +40,20 @@ HNU-WSC/
 
 └─ …other character head directories, 100 in total  
    (Note: The above is a structural example. Please refer to the compressed package for the complete content）
+
+Image Preprocessing
+ 
+All glyph images in the HNU‑WSC subset undergo a standardized four‑step preprocessing pipeline to ensure data consistency for model training and research:
+ 
+1. Background Unification: Uniformly remove messy original backgrounds and set a clean, consistent background for all glyph pictures.
+
+2. Noise & Blur Removal: Eliminate image noise, speckles and blurred artifacts caused by scanning, photographing and rubbing to improve image clarity.
+
+3. Edge Trimming: Cut redundant blank borders, irregular residual edges and stray shadow fragments around each character glyph.
+
+4. Pixel Standardization: Resize all processed images to a unified pixel resolution to avoid size discrepancy among different character samples.
+ 
+This preprocessing workflow guarantees high‑quality, standardized image data for ancient character recognition, glyph retrieval and font design research
 
 ## Purpose
 Each character head folder contains Chu slip glyph images of different writing forms of the corresponding character. As there are many images, it is recommended to download the compressed package locally to view details.
